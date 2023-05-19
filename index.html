@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./favicon.ico " />
+    <title>Shorten Link</title>
+  </head>
+  <body>
+    <div id="reqlink">
+      <div id="showarea">
+        <div class="btnclose">
+          <button onclick="cloose()">X</button>
+        </div>
+        <div class="list">
+          <div class="lconent1" id="cnt1"></div>
+          <div class="lconent1" id="cnt2"></div>
+          <div class="lconent1" id="cnt3"></div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <nav class="top">
+        <div class="menu">
+          <span>Shortly</span>
+          <a href="#" class="goto">Features</a>
+          <a href="#" class="goto">Pricing</a>
+          <a href="#" class="goto">Resources</a>
+        </div>
+        <div class="btn_log">
+          <button class="btn"><a href="./../login/index.html">Login</a></button>
+          <button class="btn up"><a href="#">Sign Up</a></button>
+        </div>
+      </nav>
+    </div>
+    <div class="home">
+      <div class="cont">
+        <span class="h1">More than just shorter links</span>
+        <span class="sub"
+          >Build yout brand's recognition and get detailed insight on how your
+          links are performing
+        </span>
+        <button class="start">Get Started</button>
+      </div>
+      <div class="bgsec"></div>
+    </div>
+    <div class="input">
+      <div>
+        <input
+          type="text"
+          id="inputlink"
+          required
+          placeholder="Shorten a link here....."
+        />
+        <button class="btnsumbit" onclick="show()">Shorten It!</button>
+      </div>
+    </div>
+    <div class="other">
+      <div id="arealist"></div>
+      <div class="contadv">
+        <h2>Advanced Statistics</h2>
+        <h4>
+          Track how your link are performing across the web with our advanced
+          statistics dashboard
+        </h4>
+      </div>
+      <div class="box">
+        <div class="box1">
+          <img src="./images/icon-brand-recognition.svg" alt="brand" />
+          <h1>Brand Recognition</h1>
+          <h4>
+            Boost your brand recognition with each click.Generic links don't
+            mean a thing .Branded links help instil confidence in your content.
+          </h4>
+        </div>
+        <div class="box1">
+          <img src="./images/icon-detailed-records.svg" alt="brand" />
+          <h1>Detailed Records</h1>
+          <h4>
+            GAin insights into who is clicking your links.Knowing when and where
+            people engage with your conent helps inform better decisions.
+          </h4>
+        </div>
+        <div class="box1">
+          <img src="./images/icon-fully-customizable.svg" alt="brand" />
+          <h1>Fully customizable</h1>
+          <h4>
+            Imporve brand awarenesss and content discoverability through
+            customizablelinks,supercharging audience engagement
+          </h4>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="name fbox">Shortly</div>
+      <div class="devinfo fbox">!!--Created by Vaibhav Gupta--!!</div>
+      <div class="social fbox">
+        <a href="https://www.linkedin.com/in/vaibhavgupta0141" target="_blank"
+          >LinkdIn</a
+        >
+        <a href="https://github.com/cyber-vg" target="_blank">GitHub</a>
+        <a href="https://leetcode.com/vaibhavgupta0141/" target="_blank"
+          >LeetCode</a
+        >
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
