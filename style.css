@@ -308,3 +308,75 @@ box-sizing: border-box;
 .social a:hover{
   color: blue;
 }
+@media (max-width: 600px) {
+#reqlink{
+  display: none;
+  width: 99vw; 
+}
+nav{
+  padding: 0;
+}
+.menu{
+  display: flex;
+  flex-direction: column;
+}
+.home{
+  flex-direction: column;
+  height: auto;
+}
+.cont{
+  width: auto;
+  padding: 0;
+}
+.bgsec{
+  width: auto;
+}
+.input div{
+  margin-left:0;
+    width: 93vw;
+    
+}
+input{
+  width: 258px;
+}
+.btn{
+height: 50px;
+}
+.other{
+  width: auto;
+  height: auto;
+  margin-bottom:20px ;
+}
+.box{
+  flex-direction: column;
+  margin-bottom:20px ;
+}
+.box1{
+margin-bottom: 70px;
+}
+footer{
+  flex-direction: column;
+  height: auto;
+}
+.fbox{
+  width: auto;
+}
+.social{
+  flex-direction: row;
+}
+.list{
+  margin-left: 0px;
+}
+.lconent1{
+  width: 300px;
+  margin: 30px -15px;
+  justify-content: normal;
+}
+.linkhead{
+  width: auto;
+}
+.link{
+  margin-left:8px ;
+  font-family: monospace;
+}
+}
